@@ -227,20 +227,20 @@ export const myServices = [
   {
     service:
       "AWS Cloud Practitioner Essentials by Amazon web Service- Coursera 2024",
-    iconName: "lnr lnr-database",
+    iconName: "lnr lnr-code",
     // description:
     //   "AWS Cloud Practitioner Essentials by Amazon web Service- Coursera 2024",
   },
   {
     service: " AWS Educate Badges by Amazon Web Service",
-    iconName: "lnr lnr-pie-chart",
+    iconName: "lnr lnr-code",
     description:
       "Introduction to Cloud 101 \nGetting Started with Compute \nGetting Started with Serverless",
   },
   {
     service:
       " DevOps Beginners to Advanced with Projects- Udemy 2024 (Ongoing)",
-    iconName: "lnr lnr-magic-wand",
+    iconName: "lnr lnr-code",
     // description:
     //   "Lorem ipsum dolor sit amet consectetur, poie adipisicing elit. Reiciendis ipsam nesciunt sint neque praesentium a poie elit adipisicing elit !",
   },
@@ -254,7 +254,7 @@ export const myServices = [
   {
     service:
       " Machine learning specialization by deeplearning.ai- Coursera 2023",
-    iconName: "lnr lnr-bullhorn",
+    iconName: "lnr lnr-code",
     description:
       " Supervised Machine Learning: Regression and Classification \nAdvanced Learning Algorithms \nUnsupervised Learning, Recommenders \nReinforcement Learning",
   },
@@ -262,27 +262,27 @@ export const myServices = [
   {
     service:
       " Java Programming and Software Engineering Fundamentals Specialization by Duke University- Coursera",
-    iconName: "lnr lnr-smartphone",
+    iconName: "lnr lnr-code",
     description:
       "• Programming Foundations with JavaScript, HTML, and CSS \nJava Programming: Solving Problems with Software, Arrays, Lists, and Structured Data, Principles of Software Design, Build a Recommendation System",
   },
   {
     service:
       " Programming for Everybody , Python Data Structures by University of Michigan- Coursera 2020",
-    iconName: "lnr lnr-smartphone",
+    iconName: "lnr lnr-code",
     description:
       "• Programming for Everybody: Getting Started with Python \nPython Data Structures",
   },
   {
     service:
       " Neural Networks and Deep Learning by deeplearning.ai- Coursera 2024",
-    iconName: "lnr lnr-smartphone",
+    iconName: "lnr lnr-code",
     // description:
     //   "Lorem ipsum dolor sit amet consectetur, poie adipisicing elit. Reiciendis ipsam nesciunt sint neque praesentium a poie elit adipisicing elit !",
   },
   {
     service: " Introduction to Cloud Computing by IBM- Coursera 2024",
-    iconName: "lnr lnr-bullhorn",
+    iconName: "lnr lnr-code",
     // description:
     //   " Supervised Machine Learning: Regression and Classification, Advanced Learning Algorithms, Unsupervised Learning, Recommenders, Reinforcement Learning",
   },
@@ -318,21 +318,21 @@ export const myResumeContent = {
       event: "Software Engineer",
       location: "Adveccio Pvt Ltd, Colombo 04",
       description:
-        "Contributed to the end-to-end development of a business management system for VK Enterprises PVT LTD, covering business analysis, development, and deployment using Flask and React, MySQL \nContributed to the development of 'CBL Connect Plus', a web-based ERP system for CBL Distributions using React, Flask, and MySQL. \nAI-powered customer support chatbot development for a Salesforce application using Python, RASA framework, React, and Flask\nRaw material consumption prediction system for a manufacturing company based on historical data. (Python,Flask, React, SARIMA, LSTM, MS SQL)",
+        "• Contributed to the end-to-end development of a business management system for VK Enterprises PVT LTD, covering business analysis, development, and deployment using Flask and React, MySQL \n• Contributed to the development of 'CBL Connect Plus', a web-based ERP system for CBL Distributions using React, Flask, and MySQL. \n• AI-powered customer support chatbot development for a Salesforce application using Python, RASA framework, React, and Flask",
     },
     {
       years: "Jul 2023 - Oct 2023",
       event: "Intern - Electronics Engineer",
       location: "Vega Innovations Pvt Ltd, Colombo 10",
       description:
-        "Real-time CAN Data Logger Development (Group) - STM32 MCU Programming, PCB Designing. \nCAN Data Decoding Algorithm Development (Individual) - Python, DSA, NumPy, Pandas",
+        "• Real-time CAN Data Logger Development (Group) - STM32 MCU Programming, PCB Designing. \n• CAN Data Decoding Algorithm Development (Individual) - Python, DSA, NumPy, Pandas",
     },
     {
       years: "Jun 2022 - Aug 2022",
       event: "Intern - Electrical and Electronics Engineer",
       location: "KBSL Information Technologies Limited, Colombo 02 ",
       description:
-        "Worked at Bharti Airtel Sri Lanka Data Center - Internet Service Provider Support team\nData Communication and Networking , Network Devices Configuration , Network Monitoring and Reporting ,Cisco Networking",
+        "• Worked at Bharti Airtel Sri Lanka Data Center - Internet Service Provider Support team\n• Data Communication and Networking , Network Devices Configuration , Network Monitoring and Reporting ,Cisco Networking",
     },
   ],
 };
