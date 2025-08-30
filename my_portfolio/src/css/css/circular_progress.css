@@ -5,8 +5,8 @@
 }
 
 .circular-progress {
-  width: var(--progress-bar-size);
-  height: var(--progress-bar-size);
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -15,8 +15,8 @@
 
 .inner-circle {
   position: absolute;
-  width: calc(var(--progress-bar-size) - var(--progress-path));
-  height: calc(var(--progress-bar-size) - var(--progress-path));
+  width: calc(100px - var(--progress-path));
+  height: calc(100px - var(--progress-path));
   border-radius: 50%;
   background-color: var(--section-color-1);
 }

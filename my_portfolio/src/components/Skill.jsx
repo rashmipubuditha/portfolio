@@ -29,7 +29,12 @@ const Skill = ({ targetValue, skill }) => {
   }, []);
 
   return (
-    <div className="skill col-md-3 col-sm-4 col-6 mt-3" ref={skillRef}>
+    <div className="skill col-3 col-md-1 mt-4 mx-3" ref={skillRef}>
+      {/* <p align="center">
+        <a href="https://skillicons.dev">
+          <img src="https://skillicons.dev/icons?i=python,flask,react,mysql,mongodb,js,fastapi,html,css,aws,docker,git,github,githubactions,gitlab,kubernetes,docker,linux,java,c,arduino" />
+        </a>
+      </p> */}
       <div
         className="circular-progress"
         style={{
@@ -40,7 +45,7 @@ const Skill = ({ targetValue, skill }) => {
       >
         <div className="inner-circle"></div>
         <p className="info m-0 text-center">
-          <span className="percentage">{counter}%</span>
+          {/* <span className="percentage">{counter}%</span> */}
           <span className="title">{skill}</span>
         </p>
       </div>

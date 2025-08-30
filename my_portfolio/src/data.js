@@ -50,7 +50,7 @@ export const colors = [
 
 // --------------------------------------- Header --------------------------------------- //
 export const headerData = {
-  logo: "Rashmi",
+  logo: "",
   showLinks: false, // true to show navlinks, false to hidden
 };
 
@@ -94,9 +94,9 @@ export const aboutMe = {
   job: "Full-Stack Developer",
   paragraphs: [
     // first paragraph
-    "I am an experienced and skilled programmer passionate about Software Development, ML, and DevOps. I focus on continuously growing by learning new technologies and improving my skills. I am eager to find opportunities where I can contribute, learn, and grow within the industry",
+    "I am an experienced programmer with expertise in Full Stack Development, Machine Learning, and DevOps. Passionate about Artificial Intelligence and Data Science, I am driven by a constant desire to learn, innovate, and enhance my skill set. I thrive on solving complex problems, exploring new technologies, and building impactful solutions.",
     // second paragraph
-    // "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui repellat reiciendis, quas harum accusantium incidunt tenetur? Nisi voluptas, corporis nulla aliquam animi possimus. Recusandae labore doloremque officia, vero odit quaerat!",
+    "With a growth-oriented mindset, I am eager to contribute my knowledge, collaborate with industry professionals, and embrace opportunities that allow me to learn, create, and make a meaningful impact.",
   ],
 };
 // === === === \My About Me === === === //
@@ -155,17 +155,69 @@ export const skills = [
   },
   {
     skill: "ReactJs",
-    target: 85,
+    target: 90,
   },
   {
     skill: "MySql",
     target: 90,
   },
   {
-    skill: "Java",
+    skill: "ML",
     target: 80,
   },
+  {
+    skill: "AWS",
+    target: 80,
+  },
+  {
+    skill: "LLM",
+    target: 80,
+  },
+  {
+    skill: "DevOps",
+    target: 80,
+  },
+  {
+    skill: "Cloud",
+    target: 80,
+  },
+  // {
+  //   skill: "ReactJs",
+  //   target: 90,
+  // },
+  // {
+  //   skill: "Java",
+  //   target: 80,
+  // },
 ];
+
+export const skillsData = [
+  {
+    skill: "Full Stack Web Development",
+    tools: "HTML, CSS, JavaScript, React, Flask, RESTful API, MySQL, MongoDB",
+  },
+  {
+    skill: "Machine Learning & Deep Learning",
+    tools: "TensorFlow, PyTorch, Scikit-learn, Statistics",
+  },
+  {
+    skill: "Artificial Intelligence",
+    tools:
+      "LLMs, Generative AI, RAG, YOLO, Image Processing, OpenCV, Langchain",
+  },
+  {
+    skill: "Data Analysis",
+    tools: "NumPy, Pandas, Matplotlib, Jupyter Notebook",
+  },
+
+  {
+    skill: "DevOps & Cloud",
+    tools: "Docker, CI/CD, AWS, Linux, Bash Scripting",
+  },
+  { skill: "Version Control ", tools: "Git, GitHub, GitLab" },
+  { skill: "R Programming", tools: "Data Science & Statistics" },
+];
+
 // === === === \My Skills === === === //
 
 // --------------------------------------- Services --------------------------------------- //
@@ -173,40 +225,66 @@ export const skills = [
 // === === === My Services === === === //
 export const myServices = [
   {
-    service: "Database Management",
+    service:
+      "AWS Cloud Practitioner Essentials by Amazon web Service- Coursera 2024",
     iconName: "lnr lnr-database",
-    description:
-      "Lorem ipsum dolor sit amet consectetur, poie adipisicing elit. Reiciendis ipsam nesciunt sint neque praesentium a poie elit adipisicing elit !",
+    // description:
+    //   "AWS Cloud Practitioner Essentials by Amazon web Service- Coursera 2024",
   },
   {
-    service: "Business Analysis",
+    service: " AWS Educate Badges by Amazon Web Service",
     iconName: "lnr lnr-pie-chart",
     description:
-      "Lorem ipsum dolor sit amet consectetur, poie adipisicing elit. Reiciendis ipsam nesciunt sint neque praesentium a poie elit adipisicing elit !",
+      "Introduction to Cloud 101 \nGetting Started with Compute \nGetting Started with Serverless",
   },
   {
-    service: "Creative Design",
+    service:
+      " DevOps Beginners to Advanced with Projects- Udemy 2024 (Ongoing)",
     iconName: "lnr lnr-magic-wand",
-    description:
-      "Lorem ipsum dolor sit amet consectetur, poie adipisicing elit. Reiciendis ipsam nesciunt sint neque praesentium a poie elit adipisicing elit !",
+    // description:
+    //   "Lorem ipsum dolor sit amet consectetur, poie adipisicing elit. Reiciendis ipsam nesciunt sint neque praesentium a poie elit adipisicing elit !",
   },
   {
-    service: "Web Development",
+    service:
+      " Generative AI with Large Language Models by Deepearning.ai, AWS- Coursera 2025",
     iconName: "lnr lnr-code",
-    description:
-      "Lorem ipsum dolor sit amet consectetur, poie adipisicing elit. Reiciendis ipsam nesciunt sint neque praesentium a poie elit adipisicing elit !",
+    // description:
+    //   "Lorem ipsum dolor sit amet consectetur, poie adipisicing elit. Reiciendis ipsam nesciunt sint neque praesentium a poie elit adipisicing elit !",
   },
   {
-    service: "Marketing",
+    service:
+      " Machine learning specialization by deeplearning.ai- Coursera 2023",
     iconName: "lnr lnr-bullhorn",
     description:
-      "Lorem ipsum dolor sit amet consectetur, poie adipisicing elit. Reiciendis ipsam nesciunt sint neque praesentium a poie elit adipisicing elit !",
+      " Supervised Machine Learning: Regression and Classification \nAdvanced Learning Algorithms \nUnsupervised Learning, Recommenders \nReinforcement Learning",
   },
+
   {
-    service: "App Development",
+    service:
+      " Java Programming and Software Engineering Fundamentals Specialization by Duke University- Coursera",
     iconName: "lnr lnr-smartphone",
     description:
-      "Lorem ipsum dolor sit amet consectetur, poie adipisicing elit. Reiciendis ipsam nesciunt sint neque praesentium a poie elit adipisicing elit !",
+      "• Programming Foundations with JavaScript, HTML, and CSS \nJava Programming: Solving Problems with Software, Arrays, Lists, and Structured Data, Principles of Software Design, Build a Recommendation System",
+  },
+  {
+    service:
+      " Programming for Everybody , Python Data Structures by University of Michigan- Coursera 2020",
+    iconName: "lnr lnr-smartphone",
+    description:
+      "• Programming for Everybody: Getting Started with Python \nPython Data Structures",
+  },
+  {
+    service:
+      " Neural Networks and Deep Learning by deeplearning.ai- Coursera 2024",
+    iconName: "lnr lnr-smartphone",
+    // description:
+    //   "Lorem ipsum dolor sit amet consectetur, poie adipisicing elit. Reiciendis ipsam nesciunt sint neque praesentium a poie elit adipisicing elit !",
+  },
+  {
+    service: " Introduction to Cloud Computing by IBM- Coursera 2024",
+    iconName: "lnr lnr-bullhorn",
+    // description:
+    //   " Supervised Machine Learning: Regression and Classification, Advanced Learning Algorithms, Unsupervised Learning, Recommenders, Reinforcement Learning",
   },
 ];
 // === === === \My Services === === === //

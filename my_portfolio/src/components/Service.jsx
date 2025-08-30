@@ -4,8 +4,8 @@ const Service = ({ service, iconName, description }) => {
   const { ref: iconRef, inView: animate } = useInView();
 
   return (
-    <div className={`col-lg-4 col-md-6 service ${animate ? "animate" : ""}`}>
-      <div className="icon-wrap">
+    <div className={`col-lg-6 col-md-2 service ${animate ? "animate" : ""}`}>
+      {/* <div className="icon-wrap">
         <div className="icon" ref={iconRef}>
           <div className="face front">
             <i className={iconName}></i>
@@ -14,8 +14,8 @@ const Service = ({ service, iconName, description }) => {
             <i className={iconName}></i>
           </div>
         </div>
-      </div>
-      <h4>{service}</h4>
+      </div> */}
+      <h3>{service}</h3>
       <p>{description}</p>
     </div>
   );

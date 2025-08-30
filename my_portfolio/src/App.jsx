@@ -22,7 +22,7 @@ import About from "./sections/About.jsx";
 // import Services from "./sections/Services.jsx";
 import Resume from "./sections/Resume";
 import Portfolio from "./sections/Portfolio.jsx";
-// import Testimonial from "./sections/Testimonial";
+import Certificates from "./sections/Certificates.jsx";
 import Contact from "./sections/Contact.jsx";
 import Loader from "./components/Loader.jsx";
 import ThemeControler from "./components/ThemeControler.jsx";
@@ -52,7 +52,7 @@ const App = () => {
         {/* <Services />*/}
         <Resume />
         <Portfolio />
-        {/* <Testimonial /> */}
+        <Certificates />
         <Contact />
         <GoTopButton />
         <Footer />

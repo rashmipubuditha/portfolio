@@ -465,9 +465,10 @@ nav a.active {
   box-shadow: 0 0 5px var(--main-color);
 }
 
-.service h4 {
+.service h3 {
   color: var(--title-color);
-  font-weight: 900;
+  font-weight: 450;
+  font-size: 20px;
   transition: 2.15s;
   opacity: 0.75;
 }
