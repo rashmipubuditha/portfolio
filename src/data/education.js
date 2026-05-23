@@ -30,7 +30,7 @@ export const professionalCredentials = [
     issued: "01 August 2025",
     summary:
       "Chartered-track professional registration authorising practice as an Associate Engineer in Sri Lanka, granted under Engineering Council Sri Lanka Act No. 4 of 2017.",
-    link: "/IESL.pdf",
+    link: "public/IESL.pdf",
   },
 ];
 

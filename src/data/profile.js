@@ -6,7 +6,7 @@ export const profile = {
   location: "Colombo, Sri Lanka",
   email: "rashmi99gamage@gmail.com",
   phone: "+94 71 151 5981",
-  cvPath: "/RashmiPubuditha.pdf",
+  cvPath: "public/RashmiPubuditha.pdf",
   socials: {
     github: "https://github.com/rashmipubuditha",
     linkedin: "https://www.linkedin.com/in/rashmi-pubuditha-956717211/",
